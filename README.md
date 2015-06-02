@@ -1,3 +1,3 @@
 # ChatApp
-The Android Chat App: Client side.
+Android Chat App: The Client side.
 
