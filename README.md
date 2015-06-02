@@ -1,5 +1,3 @@
 # ChatApp
-The Android Chat App 
+The Android Chat App: Client side.
 
-用户名：wenjin
-密码：123456
