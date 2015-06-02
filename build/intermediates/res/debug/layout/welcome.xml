@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"        
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#eee" >
+
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+            
+            <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/copyright" /> <!-- drawable-hdpi/copyright -->
+            
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="聊天室"
+            android:textColor="#000000"
+            android:textSize="35sp" />
+            
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Wenjin Yang"
+            android:textColor="#000"
+            android:textSize="30dp" />
+        <Button
+            android:id="@+id/main_login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_style_green"
+            android:gravity="center"
+            android:paddingLeft="130dp"
+            android:paddingRight="130dp"
+            android:layout_marginTop="10dp"
+            android:text="进入"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:onClick="welcome_login" />  <!-- 单击事件，调用函数welcome_login -->
+
+         <Button
+            android:id="@+id/main_regist_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_style_white"
+            android:gravity="center"
+            android:paddingLeft="130dp"
+            android:paddingRight="130dp"
+            android:text="退出"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:onClick="welcome_exit"  />
+    </LinearLayout><!-- From: file:/Users/yangwenjin/Documents/Android%20-%20ChatRoom%202/客户端/chatRoom/res/layout/welcome.xml -->
